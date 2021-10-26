@@ -1,0 +1,91 @@
+.row-contact{
+    margin-top: -80px;
+}
+
+.col-contact{
+    margin-left: 80px;
+    padding: 30px;
+}
+
+.title-contact{
+    margin-top: 30px;
+    color: #1e1e1e;
+    margin-bottom: -50px;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+.sub-cont{
+    line-height: 30px;
+    color: rgb(68, 68, 68);
+    margin-top: 50px;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+h4{
+    margin-top: 30px;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+.desc-h4{
+    line-height: 40px;
+    color: rgb(68, 68, 68);
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+@media screen and (max-width: 966px) {
+    .row-contact{
+        display: block;
+    }
+
+    .col-contact{
+        margin: auto;
+        width: 94%;
+        padding: 0;
+
+    }
+
+    .title-contact{
+        margin-bottom: 20px;
+
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .row-contact{
+        display: block;
+    }
+
+    .container{
+        margin: 0;
+    }
+
+    .col-contact{
+        margin: auto;
+        width: 84%;
+        padding: 0;
+
+    }
+
+    .title-contact{
+        margin-bottom: 20px;
+
+    }
+
+    .sub-cont{
+        text-align: center;
+        font-size: 14px;
+        line-height: 25px;
+        
+    }
+
+    h4{
+        margin-left: 10px;
+
+    }
+    
+}
+

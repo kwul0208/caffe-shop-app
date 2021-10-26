@@ -1,0 +1,42 @@
+.cards{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 90px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding: 50px;
+    margin-bottom: 70px !important;
+}
+
+.title-cards{
+    color: rgb(31, 30, 30);
+    font-size: 50px;
+}
+
+.title-cards, .sub-title-cards, .name-menu{
+    font-family: 'Architects Daughter', cursive;
+    margin-top: 20px;
+
+}
+
+.sub-title-cards{
+    color: #bb9073;
+}
+
+.name-menu{
+    color: rgb(107, 106, 106);
+}
+
+@media screen and (max-width: 966px) {
+    .cards{
+       width: 70% !important;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .cards{
+        width: 80%;
+    }
+}

@@ -1,0 +1,128 @@
+.Navbar{
+    justify-self: center;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    /* background-color: #42210b; */
+    background-color: transparent;
+    height: 100px;
+    z-index: 999;
+
+}
+
+.col-logo{
+    line-height: 100px;
+}
+
+.navTitle{
+    margin-top: 5px;
+    width: 200px;
+    cursor: pointer;
+    margin-left: 5vw;
+}
+
+.ul-nav, .ul-nav-off{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 8%;
+
+}
+
+.li-nav{
+    justify-content: end;
+    margin-left: 50px;
+    line-height: 100px;
+    color: wheat;
+    font-size: 20px;
+}
+
+.link{
+    color: wheat;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+h1{
+    color: wheat;
+    line-height: 10vh;
+}
+
+.btn-booking{
+    background-color: #42210b;
+    width: 100px;
+    height: 40px;
+    border: 4px solid #bb9073;
+    color: #bb9073;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.fas{
+    display: none;
+}
+
+@media screen and (max-width: 960px){
+    .navTitle{
+        width: 120px !important;
+        margin-top: 25px;
+    }
+
+    .fas{
+        display: inline;
+        position: absolute;
+        right: 6%;
+        top: 4vh;
+        color: #bb9073;
+        font-size: 35px;
+        cursor: pointer;
+    }
+
+    /* .col-nav-link{
+        position: relative;
+        z-index: 99999;
+    } */
+
+    .ul-nav{
+        margin-top: 90px;
+        background-color: #fff;
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        transition: 1s;
+        height: 95vh;
+        /* animation-name: fadeIn; */
+    }
+    .ul-nav-off{
+        margin-top: 90px;
+        background-color: #fff;
+        display: block;
+        position: absolute;
+        left: -100%;
+        width: 100%;
+        text-align: center;
+        transition: 1s;
+        opacity: .5;
+        height: 95vh;
+
+    }
+
+    /* @keyframes fadeIn {
+        0%{left: 100%;}
+        100% {left: 0}
+    } */
+
+    @media screen and (max-width: 599px) {
+        .navTitle{
+            width: 120px !important;
+            margin-top: 15px;
+        }
+    }
+
+}

@@ -1,0 +1,16 @@
+.footer{
+    width: 100%;
+    background-color: #42210b;
+    height: 9vh;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.p-footer{
+    text-align: center;
+    line-height: 9vh;
+    color: #bb9073;
+    font-family: 'Architects Daughter', cursive;
+}
+
+

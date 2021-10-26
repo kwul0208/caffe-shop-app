@@ -1,0 +1,52 @@
+.long{
+    margin-bottom: 10px;
+    margin-top: 40px !important;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    background-color: #42210b;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.card-long{
+    height: 20vh;
+}
+
+.row-long{
+    justify-content: center;
+    width: 90%;
+}
+
+.title-offering{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center !important;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.btn-offering{
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #42210b;
+    border: 3px solid #bb9073;
+    color: #bb9073;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+
+@media screen and (max-width: 966px) {
+    .title-offering{
+        margin-top: 50px;
+        font-size: 18px;
+        text-align: center !important;
+        font-family: 'Architects Daughter', cursive;
+    }
+}
